@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>E-Commerce App</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img width="75" height="50" src="./assets/logo.png" alt="logo">
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li class="nav-menu__item">
+                        <a href="index.html">Homepage</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="#">Our Products</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="#">About Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav-right">
+                <a href="cart.html" class="cart" data-products="0">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <button class="hamburger-menu">
+                    <span class="hamburger-menu__line"></span>
+                    <span class="hamburger-menu__line"></span>
+                    <span class="hamburger-menu__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="mobile-menu">
+        <ul class="mobile-menu-list">
+            <li class="mobil-menu-list__item">
+                <a href="#">Homepage</a>
+            </li>
+            <li class="mobil-menu-list__item">
+                <a href="#">Our Products</a>
+            </li>
+            <li class="mobil-menu-list__item">
+                <a href="#">About Us</a>
+            </li>
+        </ul>
+    </div>
+    <div class="shop-menu container"></div>
+    <script src="./app.js"></script>
+</body>
+</html>
